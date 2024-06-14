@@ -22,7 +22,7 @@ def get(request: Request , board :Optional[str] = "000000000"):
     if count_dict['1'] - count_dict['2'] == 1:
         turn = '2'
     else:
-        raise ValueError("board inbalid")
+        raise ValueError("board invalid")
     
     
     return templates.TemplateResponse(
