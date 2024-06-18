@@ -3,7 +3,7 @@
 play tic tac toe game on web
 
 ## Requirements
-`python 4`
+`python 3.10`
 
 ## how to install
 ```
