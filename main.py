@@ -51,3 +51,4 @@ def ai_move(request: Request , board :Optional[str] = "000000000"):
     new_board = board[:move-1] + turn + board[move:]
 
     return RedirectResponse(f'/?board={new_board}')
+ 

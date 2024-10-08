@@ -47,11 +47,11 @@ body {
 .circle{
     width: 21px;
     height: 21px;   
-    border: 3px solid #bb6b52;
+    border: 8px solid #bb6b52;
     border-radius: 100%;
     margin: auto;
     position: relative;
-    top: 20px;
+    top: 20px; 
 }
 
 .cross{
